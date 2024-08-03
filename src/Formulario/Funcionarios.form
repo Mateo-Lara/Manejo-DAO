@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="395" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                  <Component id="jPanel2" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jPanel3" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jLabel1" min="-2" pref="32" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Funcionarios"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Datos"/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="ID" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="Identificacion" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="NumIdentificacion" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="Nombres" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="Apellidos" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="EstadoCivil" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="Sexo" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="Direccion" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="Telefono" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="FechaNaci" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="TextNumIden" max="32767" attributes="0"/>
+                      <Component id="TextNombre" max="32767" attributes="0"/>
+                      <Component id="TextApellidos" alignment="0" max="32767" attributes="0"/>
+                      <Component id="TextDirecion" alignment="0" max="32767" attributes="0"/>
+                      <Component id="TextFechaNaci" max="32767" attributes="0"/>
+                      <Component id="TextTelefono" alignment="0" max="32767" attributes="0"/>
+                      <Component id="TextIdentificacion" max="32767" attributes="0"/>
+                      <Component id="TextID" max="32767" attributes="0"/>
+                      <Component id="TextEstadoCivil" max="32767" attributes="0"/>
+                      <Component id="TextSexo" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="529" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="ID" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="TextID" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Identificacion" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="TextIdentificacion" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="NumIdentificacion" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="TextNumIden" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Nombres" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="TextNombre" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Apellidos" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="TextApellidos" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="EstadoCivil" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="TextEstadoCivil" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Sexo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="TextSexo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Direccion" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="TextDirecion" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Telefono" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="TextTelefono" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="FechaNaci" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="TextFechaNaci" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="ID">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="ID"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Identificacion">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Identificaci&#xf3;n"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="NumIdentificacion">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="N&#xfa;mero de identificaci&#xf3;n"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Nombres">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nombres"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Apellidos">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Apellidos"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="EstadoCivil">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Estado civil"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Sexo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Sexo"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Direccion">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Direcci&#xf3;n"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Telefono">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Tel&#xe9;fono"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="FechaNaci">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Fecha de nacimiento"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TextIdentificacion">
+        </Component>
+        <Component class="javax.swing.JTextField" name="TextNumIden">
+        </Component>
+        <Component class="javax.swing.JTextField" name="TextNombre">
+        </Component>
+        <Component class="javax.swing.JTextField" name="TextApellidos">
+        </Component>
+        <Component class="javax.swing.JTextField" name="TextDirecion">
+        </Component>
+        <Component class="javax.swing.JTextField" name="TextTelefono">
+        </Component>
+        <Component class="javax.swing.JTextField" name="TextFechaNaci">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="yyyy-MM-dd"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TextID">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TextEstadoCivil">
+        </Component>
+        <Component class="javax.swing.JTextField" name="TextSexo">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Operaciones"/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="AgregarBoton" min="-2" pref="150" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                  <Component id="ModificarBoton" min="-2" pref="153" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                  <Component id="EliminarBoton" min="-2" pref="162" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+                  <Component id="VacioBoton" min="-2" pref="140" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="188" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="3" max="-2" attributes="0">
+                      <Component id="EliminarBoton" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                      <Component id="VacioBoton" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                      <Component id="ModificarBoton" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                      <Component id="AgregarBoton" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="AgregarBoton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Agregar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AgregarBotonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="ModificarBoton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Modificar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ModificarBotonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="EliminarBoton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Eliminar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EliminarBotonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="VacioBoton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Vacio"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="VacioBotonActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel3">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Base de datos"/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="1052" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="jScrollPane1" pref="416" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="DataBase">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="10" rowCount="0">
+                    <Column editable="true" title="ID" type="java.lang.Object"/>
+                    <Column editable="true" title="TipoIdentificacion" type="java.lang.Object"/>
+                    <Column editable="true" title="NumeroIdentificacion" type="java.lang.Object"/>
+                    <Column editable="true" title="Nombres" type="java.lang.Object"/>
+                    <Column editable="true" title="Apellidos" type="java.lang.Object"/>
+                    <Column editable="true" title="EstadoCivil" type="java.lang.Object"/>
+                    <Column editable="true" title="Sexo" type="java.lang.Object"/>
+                    <Column editable="true" title="Direccion" type="java.lang.Object"/>
+                    <Column editable="true" title="Telefono" type="java.lang.Object"/>
+                    <Column editable="true" title="FechaNacimiento" type="java.lang.Object"/>
+                  </Table>
+                </Property>
+                <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                  <TableColumnModel selectionModel="0">
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                  </TableColumnModel>
+                </Property>
+                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                  <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="DataBaseMouseClicked"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
